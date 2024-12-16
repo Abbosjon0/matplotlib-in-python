@@ -1,6 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+plt.plot(x, y)
+plt.show()
+
 # x = np.array([0, 8])
 # y = np.array([0, 350])
 # plt.plot(x, y)
