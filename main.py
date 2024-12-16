@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# x = np.random.rand(50) * 10
-# y = np.random.rand(50) * 10
-# plt.scatter(x, y)
-# plt.show()
+x = np.random.rand(50) * 10
+y = np.random.rand(50) * 10
+plt.scatter(x, y)
+plt.show()
 
 # x = np.linspace(0, 10, 100)
 # y = np.sin(x)
